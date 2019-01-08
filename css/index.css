@@ -11,6 +11,7 @@
   border:0px solid;
   border-radius:5px;
   background:#eee;
+  text-align: center;
 }
 img{
   max-width: 100%; 
@@ -42,7 +43,6 @@ li{
 }
 blockquote{
   font-style: italic;
-
 }
 
     
