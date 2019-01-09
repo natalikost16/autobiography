@@ -14,34 +14,44 @@
    <div>
      <p id="description">Description</p>
    </div>
+   
    <div>
      <form method="GET" action="form" id="survey-form">
+         
        <div id="name" class="rowTab">
+           
          <div class="label">
          <label id="name-label" for="user-name">* Name:</label>
          </div>
          <input type="text" name="user-name" placeholder="Enter your name">
        </div>
+       
        <div id="email" class="rowTab">
          <div class="label">
          <label id="email-label" for="user-email">* Email:</label>
          </div>
          <input type="email" name="email" placeholder="Enter your email">
        </div>
+       
        <div id="age" class="rowTab">
          <div class="label">
          <label id="number-label" for="number">* Age:</label>
          </div>
          <input type="number" name="age" id="number" min="1" max="110" placeholder="Enter your age">
-       </div>       
+       </div> 
+       
        <div class="dropdown">
-         <label for="currentPos">Which option best describes your current role?:</label>
+           <div class="label">
+         <label for="dropdown">Which option best describes your current role?:</label>
+         </div>
+         <div id="">
          <select id="dropdown" name="currentPos" class="dropdown">
          <option disablet="" value="">Select an option:</option>
          <option value="Student">Student</option>
          <option value="Job">Job</option>
          <option value="learner">Learner</option>
          </select>
+         </div>
        </div>
        
        
@@ -70,7 +80,7 @@
                     </div>
                    
        </div>
-       
+       </div>
      </form>
    </div>
  </div>
