@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/test2.css">
+</head>
+<body>
+  
+  <h1 id="title">Hello</h1>
+ <div id="form-own">
+   <div>
+     <p id="description">Description</p>
+   </div>
+   <div>
+     <form method="GET" action="form" id="survey-form">
+       <div id="name" class="rowTab">
+         <div class="label">
+         <label id="name-label" for="user-name">* Name:</label>
+         </div>
+         <input type="text" name="user-name" placeholder="Enter your name">
+       </div>
+       <div id="email" class="rowTab">
+         <div class="label">
+         <label id="email-label" for="user-email">* Email:</label>
+         </div>
+         <input type="email" name="email" placeholder="Enter your email">
+       </div>
+       <div id="age" class="rowTab">
+         <div class="label">
+         <label id="number-label" for="number">* Age:</label>
+         </div>
+         <input type="number" name="age" id="number" min="1" max="110" placeholder="Enter your age">
+       </div>       
+       <div class="dropdown">
+         <label for="currentPos">Which option best describes your current role?:</label>
+         <select id="dropdown" name="currentPos" class="dropdown">
+         <option disablet="" value="">Select an option:</option>
+         <option value="Student">Student</option>
+         <option value="Job">Job</option>
+         <option value="learner">Learner</option>
+         </select>
+       </div>
+       
+       
+           <div class="radio">
+               <div class="label">
+           <label>How likely is that you would recommend freeCodeCamp to a friend</label>
+           </div>
+               
+                 <div>  
+                   
+                   <div id="one">
+                      <input type="radio" name="radio-buttons" value="definitely" id="definitely">
+                      <label for="definitely">Definitely</label>
+                   </div>
+                   
+                   <div id="two">
+                       <input type="radio" name="radio-buttons" value="maybe" id="maybe">
+                       <label for="maybe">Maybe</label>
+                      </div>
+                           
+                   <div id="three">
+                       <input type="radio" name="radio-buttons" value="not_sure" id="not_sure">
+                       <label for="not_sure">Not sure</label>
+                     </div>      
+                       
+                    </div>
+                   
+       </div>
+       
+     </form>
+   </div>
+ </div>
+  
+</body>
+</html>
