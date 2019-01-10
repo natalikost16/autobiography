@@ -77,24 +77,3 @@ select {
     left: 20px;
     top: -48px;
 }
-#comments {
-    width: 300px;
-    position: relative;
-    top: -120px;
-    left: 160px;
-    padding-bottom: 60px;
-    
-}
-#submit {
-    position: relative;
-    top: -80px;
-    width: 120px;
-    height: 30px;
-    background-color: silver;
-}
-.comment {
-    position: relative;
-    top: -100px;
-    width: 250px;
-    left: 150px;
-}
